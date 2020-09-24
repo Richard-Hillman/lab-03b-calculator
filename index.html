@@ -23,48 +23,69 @@
 
     <main>
         <section class="main-section">
-           <div>CALCULATOR</div> 
+           <div class="calc">CALCULATOR</div> 
+           
+           
            <Section class="main">
-               <div><button id="button">Find The Answer</button></div> 
-                
-                    <section class="addition">
+                <div>
+                    <!-- ADDITION -->
+                    
+                    <section  class="addition">
+                        
                         <div class="small-title">Add</div>
                         <div> <input id="number-one"> </div>    
                         <div> + </div>
                         <div> <input id="number-two"> </div>
+                        <div><button id="button">Find The Answer</button></div>
+                        <section id="answer"> Answer </section>
                     </section>
-              
+                    
+                    <!-- SUBTRACTION -->
+                    
                     <section class="subtraction">
+                        
                         <div class="small-title">Subtract</div>
                         <div> <input id="number-one-s"> </div>    
                         <div> - </div>
                         <div> <input id="number-two-s"> </div>
+                        <div><button id="button-s">Find The Answer</button></div>
+                        <section id="answers"> Answer </section>
                     </section>
-
+                </div>
+                
+                <div>
+                <!-- MULTIPLICATION -->    
+                    
                     <section class="multiplication">
+                        
                         <div class="small-title">Multiply</div>
                         <div> <input id="number-one-m"> </div>    
                         <div> * </div>
                         <div> <input id="number-two-m"> </div>
+                        <div><button id="button-m">Find The Answer</button></div>
+                        <section id="answerm"> Answer </section>
                     </section>
-
+                    
+                    <!-- DIVISION -->
+                    
                     <section class="division">
+                        
                         <div class="small-title">Divise</div>
                         <div> <input id="number-one-d"> </div>    
                         <div> / </div>
                         <div> <input id="number-two-d"> </div>
+                        <div><button id="button-d">Find The Answer</button></div>
+                        <section id="answerd"> Answer </section>
                     </section>
-
-               <div> = </div>
-               <section id="answer"> Answer </section>
-            </Section>
-        </section>
-    </main>
-
-
-
-    <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
+                </div>
+                
+            </section>
+        </main>
+        
+        
+        
+        <footer>
+            <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
     </footer>
 
     <script type="module" src="app.js"></script>

@@ -1,18 +1,20 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     --color1: #ffffff;
     --color2: #ffffff;
     --color3: #ffffff;
     --color4: #ffffff;
     --color5: #ffffff;
-
+    
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
     --color2: hsla(207, 67%, 44%, 1);
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1); */
-
+    
     /* --color1: hsla(45, 86%, 83%, 1);
     --color2: hsla(135, 65%, 98%, 1);
     --color3: hsla(315, 37%, 86%, 1);
@@ -39,40 +41,6 @@ main {
     border: black;
     border-style: solid;
     
-}
-
-.main {
-    border-radius: 8px;
-    background-color: yellowgreen;
-    height: 900px;
-    width: 700px;
-}
-
-.addition{
-    height: 150px;
-    width: 300px;
-}
-
-#button {
-    border-radius: 8px;
-
-}
-
-.main-section {
-    height: 1000px;
-    width: 750px;
-    border: black;
-    border-style: solid;
-    background-color: hotpink;
-    border-radius: 10px;
-}
-
-#answer {
-    border-radius: 30px;
-    height: 30px;
-    width: 100px;
-    border: blueviolet;
-    border-style: solid;
 }
 
 section {
@@ -111,6 +79,57 @@ h2 {
     font-weight: bold;
 }
 
+
+
+/* classes */
+
+
+
+.main-section {
+    height: 99%;
+    width: 80%;
+    border: black;
+    border-style: solid;
+    background-color: red;
+    opacity: 90%;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: blue;
+    height: 100%;
+    width: 60%;
+}
+
+.addition {
+    border-radius: 15px;
+    height: 350px;
+    width: 380px;
+}
+
+.subtraction {
+    border-radius: 15px;
+    height: 350px;
+    width: 380px;
+}
+
+.multiplication {
+    border-radius: 15px;
+    height: 350px;
+    width: 380px;
+}
+
+.division {
+    border-radius: 15px;
+    height: 350px;
+    width: 380px;
+}
+
 .gutter-right {
     margin-right: 20px;
 }
@@ -119,30 +138,64 @@ h2 {
     animation: pulse 5s infinite ease-in-out;
 }
 
-header img {
-    height: var(--header-height);
+.calc {
+    font-size: 90px;
+    font-style: ;
+}
+
+/* IDS */
+
+#button {
+    border-radius: 8px;   
+}
+
+#button-s {
+    border-radius: 8px;   
+}
+
+#button-m {
+    border-radius: 8px;   
+}
+
+#button-d {
+    border-radius: 8px;   
+}
+
+#answer {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border: black;
+    border-style: solid;
+}
+
+#answers {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border: black;
+    border-style: solid;
+}
+
+#answerm {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border: black;
+    border-style: solid;
+}
+
+#answerd {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border: black;
+    border-style: solid;
 }
 
 
 
-content {
-    width: 80%;
-}
 
-p {
-    margin: var(--gutter);
-}
-  
-footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    height: var(--footer-height);
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--color3);
-    box-shadow: var(--shadow);
-}
   
   @keyframes pulse {
     20% {

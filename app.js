@@ -13,15 +13,36 @@ const inputTwoD = document.getElementById('number-two-d')
 
 
 const button = document.getElementById('button')
-const answer = document.getElementById('answer')
+const buttons = document.getElementById('button-s')
+const buttonm = document.getElementById('button-m')
+const buttond = document.getElementById('button-d')
+
+const answeri = document.getElementById('answer')
+const answeris = document.getElementById('answer-s')
+const answerim = document.getElementById('answer-m')
+const answerid = document.getElementById('answer-d')
+
+
 // initialize state
 
 button.addEventListener('click', () => {
     const answeri = Number(inputOne.value) + Number(inputTwo.value)
-    const answeri = Number(inputOneS.value) - Number(inputTwoS.value)
-    const answeri = Number(inputOneM.value) * Number(inputTwoM.value)
-    const answeri = Number(inputOneD.value) / Number(inputTwoD.value)
     answer.textContent = answeri
+})
+
+buttons.addEventListener('click', () => {
+    const answeris = Number(inputOneS.value) - Number(inputTwoS.value)
+    answers.textContent = answeris 
+})
+
+buttonm.addEventListener('click', () => {
+    const answerim = Number(inputOneM.value) * Number(inputTwoM.value)
+    answerm.textContent = answerim
+})
+
+buttond.addEventListener('click', () => {
+    const answerid = Number(inputOneD.value) / Number(inputTwoD.value)
+    answerd.textContent = answerid
 })
 
 // set event listeners to update state and DOM
