@@ -44,6 +44,13 @@ main {
 .main {
     border-radius: 8px;
     background-color: yellowgreen;
+    height: 900px;
+    width: 700px;
+}
+
+.addition{
+    height: 150px;
+    width: 300px;
 }
 
 #button {
@@ -52,8 +59,8 @@ main {
 }
 
 .main-section {
-    height: 500px;
-    width: 375px;
+    height: 1000px;
+    width: 750px;
     border: black;
     border-style: solid;
     background-color: hotpink;
