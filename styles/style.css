@@ -34,6 +34,38 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    height: 100%;
+    width: 100%;
+    border: black;
+    border-style: solid;
+    
+}
+
+.main {
+    border-radius: 8px;
+    background-color: yellowgreen;
+}
+
+#button {
+    border-radius: 8px;
+
+}
+
+.main-section {
+    height: 500px;
+    width: 375px;
+    border: black;
+    border-style: solid;
+    background-color: hotpink;
+    border-radius: 10px;
+}
+
+#answer {
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+    border: blueviolet;
+    border-style: solid;
 }
 
 section {

@@ -6,7 +6,7 @@ const answer = document.getElementById('answer')
 // initialize state
 
 button.addEventListener('click', () => {
-    const answeri = parseFloat(inputOne.value) + parseFloat(inputTwo.value)
+    const answeri = Number(inputOne.value) + Number(inputTwo.value)
     answer.textContent = answeri
 })
 
