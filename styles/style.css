@@ -91,7 +91,7 @@ h2 {
     border: black;
     border-style: solid;
     background-color: red;
-    opacity: 90%;
+    opacity: 70%;
     border-radius: 10px;
 }
 
@@ -111,6 +111,7 @@ h2 {
     height: 350px;
     width: 380px;
 }
+    
 
 .subtraction {
     border-radius: 15px;
@@ -140,7 +141,7 @@ h2 {
 
 .calc {
     font-size: 90px;
-    font-style: ;
+
 }
 
 /* IDS */
