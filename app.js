@@ -16,23 +16,17 @@ import { handleAddClick } from './handlers.js';
 const button = document.getElementById('button');
 button.addEventListener('click', handleAddClick);
 
+import { handleSubtractClick } from './handlers.js';
+const buttons = document.getElementById('button-s');
+buttons.addEventListener('click', handleSubtractClick);
 
+import { handleMultiplyClick } from './handlers.js';
+const buttonm = document.getElementById('button-m');
+buttonm.addEventListener('click', handleMultiplyClick);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import { handleDivideClick } from './handlers.js';
+const buttond = document.getElementById('button-d');
+buttond.addEventListener('click', handleDivideClick);
 
 
 
