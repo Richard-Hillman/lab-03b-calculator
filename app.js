@@ -1,16 +1,3 @@
-// // import functions and grab DOM elements
-// const inputOne = document.getElementById('number-one')
-// const inputTwo = document.getElementById('number-two')
-
-// const inputOneS = document.getElementById('number-one-s')
-// const inputTwoS = document.getElementById('number-two-s')
-
-// const inputOneM = document.getElementById('number-one-m')
-// const inputTwoM = document.getElementById('number-two-m')
-
-// const inputOneD = document.getElementById('number-one-d')
-// const inputTwoD = document.getElementById('number-two-d')
-
 
 import { handleAddClick } from './handlers.js';
 const button = document.getElementById('button');
@@ -28,6 +15,26 @@ import { handleDivideClick } from './handlers.js';
 const buttond = document.getElementById('button-d');
 buttond.addEventListener('click', handleDivideClick);
 
+
+
+
+
+
+
+
+
+
+// const inputOne = document.getElementById('number-one')
+// const inputTwo = document.getElementById('number-two')
+
+// const inputOneS = document.getElementById('number-one-s')
+// const inputTwoS = document.getElementById('number-two-s')
+
+// const inputOneM = document.getElementById('number-one-m')
+// const inputTwoM = document.getElementById('number-two-m')
+
+// const inputOneD = document.getElementById('number-one-d')
+// const inputTwoD = document.getElementById('number-two-d')
 
 
 // const button = document.getElementById('button');
